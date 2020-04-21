@@ -1,0 +1,10 @@
+h1 {
+  color: purple;
+}
+
+#main-list {
+  border: 2px dotted orange;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}

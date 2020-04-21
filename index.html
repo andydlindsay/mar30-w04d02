@@ -1,16 +1,29 @@
 <html>
   <head>
     <title>My Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
   </head>
   <body>
     <h1>Welcome to my page!</h1>
     <div class="content">
       <p>My Favourite Numbers</p>
+
+      <label for="new-num">Enter a new number:</label>
+      <input id="new-num" name="new-num" />
+      <button>Add to list!</button>
+      
       <ul id="main-list">
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
+        <li>One</li><li>Two</li><li>Three</li>
       </ul>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"></script>
+      
+    <script src="scripts2.js"></script> <!-- sayHello -->
+    <script src="scripts.js"></script> <!-- sayHello() -->
   </body>
 </html>
