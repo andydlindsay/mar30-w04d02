@@ -32,6 +32,8 @@ window.document === document; // true
 - The DOM is stored as a [`tree`](https://en.wikipedia.org/wiki/Tree_(data_structure)) data structure with parent/child/sibling relationships between various parts of the page
 - The DOM allows us to interact with the web page using JavaScript
 
+![DOM Visualized](https://raw.githubusercontent.com/andydlindsay/mar30-w04d02/master/dom-example.png)
+
 ### DOM Events
 - An event is a notification that some action has occurred (eg. a button is clicked, the mouse pointer is moved, a key is pressed)
 - We can attach code (usually in the form of a `callback` function) to run when a specific event occurs... we call this "_attaching an event listener_"
